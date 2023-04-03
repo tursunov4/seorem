@@ -1,0 +1,33 @@
+.register{
+    background-color: rgb(199, 197, 197);
+    border-radius: 5px;
+    padding: 25px 15px;
+    border: 1px solid #aba8a8;
+}
+.file-input {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.pointer{
+    cursor: pointer;
+}
+.sidebar{
+    width: 25%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgb(171, 164, 164);
+    height: 100vh;
+    padding-top: 20px;
+}
+.sidebar > li {
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+.user{
+    width: 100%;
+
+}
