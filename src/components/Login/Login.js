@@ -61,7 +61,7 @@ function Login() {
             window.localStorage.setItem('token' ,res.data.access_token )
             console.log(res.data);
             if(res.status === 200){
-                navigate('/mainpage/suppliers')                
+                navigate('/mainpage')                
             }
          }).catch((err) =>{
             if(err.response.status ===403) {

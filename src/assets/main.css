@@ -13,6 +13,7 @@
     cursor: pointer;
 }
 .sidebar{
+    padding: 20px;
     width: 25%;
     list-style: none;
     display: flex;
@@ -23,9 +24,22 @@
     padding-top: 20px;
 }
 .sidebar > li {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: aliceblue;
     cursor: pointer;
     font-size: 25px;
     font-weight: bold;
+    
+}
+.sidebar >li:hover{
+    background: #fff;
+    width: 100%;
+}
+.sidebar >li:active{
+    background: black;
+    color: white;
+    width: 100%;
 }
 .user{
     width: 100%;
